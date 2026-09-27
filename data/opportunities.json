@@ -21,8 +21,8 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-26T04:56:56Z",
+    "last_changed_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-27T05:17:38Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-16T18:12:44Z",
@@ -37,7 +37,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-09-26T03:53:34Z"
+    "updated_at": "2026-09-27T04:03:13Z"
   },
   {
     "ai_assistability": "unknown",
@@ -66,8 +66,8 @@
       "open",
       "propagation"
     ],
-    "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-26T04:56:56Z",
+    "last_changed_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-27T05:17:38Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-01T04:13:08Z",
@@ -82,7 +82,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/515",
     "status": "open",
     "title": "[Bounty] Add RustChain to Your GitHub Profile README - 2 RTC",
-    "updated_at": "2026-09-26T03:33:05Z"
+    "updated_at": "2026-09-26T13:36:10Z"
   },
   {
     "ai_assistability": "unknown",
@@ -108,7 +108,7 @@
       "medium"
     ],
     "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-26T04:56:56Z",
+    "last_checked_at": "2026-09-27T05:17:38Z",
     "notes": null,
     "project": "illbnm/homelab-stack",
     "published_at": "2026-03-17T08:02:32Z",
@@ -148,7 +148,7 @@
       "bug"
     ],
     "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-26T04:56:56Z",
+    "last_checked_at": "2026-09-27T05:17:38Z",
     "notes": null,
     "project": "kodaksax/Bounty-production",
     "published_at": "2026-09-25T21:08:05Z",
@@ -164,5 +164,43 @@
     "status": "open",
     "title": "Internal test bounty 2a39dbf2 is publicly listed as open with an accepted hunter; external applicants told 'no response'",
     "updated_at": "2026-09-25T21:08:05Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
+    "author_association": "OWNER",
+    "body_excerpt": "## Goal Find legitimate public paid opportunities to build apps, websites, tools, agents or developer products using the stack we already have (ChatGPT/AI coding, GitHub, free/credited hosting where possible), with zero owner capital by default. ## High-fit live candidates ### 1) Devpost — Build With AI: Basics - Prize pool: $2,500 cash (1st $1,250 / 2nd $750 / 3rd $500) - Deadline: 2026-10-26 - Global, age 18+ - Explicitly designed for coding agents; supports Codex/agent skills. - Requires a brand-new app from an empty folder, public repo with scope.md/prd.md/spec.md, and 1–3 min demo video. - No purchase/payment necessary. - Fit: VERY HIGH. We can build most of it autonomously with GitHub + AI; human gate is registration/submission/video publishing. - Source: https://learn-ai-basics.devpost.com/ ### 2) Amazon Developer Hackathon — Build, Ship, Shape - $138,000 cash prize pool; deadline 2026-10-23. - Global adults; no purchase/payment necessary. - Alexa+ track explicitly allows a self-hosted MCP server or Agent Skill and can be demoed with our own web frontend/simulator; no gated Alexa+ tools needed. - Open Source mini-challenge pays $5,000 cash; main track prizes are larger. - Fit: HIGH technically, but very high competition (~14k participants). - Source: https://amazonappdev2026.devpost.com/ ### 3) Superteam — Mermail Agent Skill - 500 USDC total: 250 / 100 / 50 + 2x 50 bonuses. - Global; 166 submissions visible on 2026-09-26. - Winner announcement scheduled 2026-10-11. - Skills: backend/blockchain/content; build/demo an agent skill. - Fit: HIGH; agent-native and public GitHub deliverable. Competition moderate-high. - Source: https://superteam.fun/earn/listing/build-and-demo-a-mermail-agent-skill ### 4) Colosseum Crypto World's Fair + Superteam sidetracks - Global hackathon: $840k prizes + $2.5M seed funding; submissions due 2026-10-12. - Superteam Crypto World's Fair sidetracks currently advertise additional prizes; Panta API sidetrack: 5,000 USDG (2k / 1k / 1k…",
+    "category": "design",
+    "competition": {
+      "attempts": null,
+      "claims": null,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "bounty"
+    ],
+    "github_state": "open",
+    "id": "github-uknwplayer-coins-on-the-ground-9",
+    "issue_number": 9,
+    "labels": [],
+    "last_changed_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-27T05:17:38Z",
+    "notes": null,
+    "project": "uknwplayer/coins-on-the-ground",
+    "published_at": "2026-09-27T01:39:09Z",
+    "reward": {
+      "amount": 2500,
+      "currency": "USD",
+      "evidence": "- Prize pool: $2,500 cash (1st $1,250 / 2nd $750 / 3rd $500)",
+      "provenance": "stated",
+      "verified": false
+    },
+    "source": "github",
+    "source_url": "https://github.com/uknwplayer/coins-on-the-ground/issues/9",
+    "status": "open",
+    "title": "Build-to-earn scan — apps, sites & tools — 2026-09-26",
+    "updated_at": "2026-09-27T01:39:09Z"
   }
 ]
