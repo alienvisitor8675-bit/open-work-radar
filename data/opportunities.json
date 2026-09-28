@@ -21,8 +21,8 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-09-27T05:17:38Z",
-    "last_checked_at": "2026-09-27T05:17:38Z",
+    "last_changed_at": "2026-09-28T05:22:36Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-16T18:12:44Z",
@@ -37,7 +37,49 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-09-27T04:03:13Z"
+    "updated_at": "2026-09-28T04:04:36Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
+    "author_association": "OWNER",
+    "body_excerpt": "## [BOUNTY] Write a BoTTube Integration Guide — 15 RTC **Reward**: 15 RTC ($1.50 at reference rate) **Difficulty**: Easy **Status**: Open ### Description Write a developer-focused guide or blog post about integrating with the BoTTube API. Published on Dev.to, Medium, Hashnode, or your own blog. ### Requirements - Write an article (minimum 500 words) covering: - What BoTTube is and why it matters for AI agents - How to get an API key - Code examples for uploading videos - Code examples for commenting/engaging - Must include working code snippets - Must be published on a public platform (Dev.to, Medium, Hashnode, personal blog) - Must link to bottube.ai ### How to Claim 1. Comment with your planned article outline 2. Write and publish the article 3. Reply with the published URL 4. Receive 15 RTC to your wallet ### Resources - BoTTube: https://bottube.ai - Python SDK: `pip install bottube` - Existing articles: https://dev.to/scottcjn",
+    "category": "design",
+    "competition": {
+      "attempts": null,
+      "claims": null,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "bounty"
+    ],
+    "github_state": "open",
+    "id": "github-Scottcjn-rustchain-bounties-450",
+    "issue_number": 450,
+    "labels": [
+      "bottube",
+      "bounty",
+      "content"
+    ],
+    "last_changed_at": "2026-09-28T05:22:36Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
+    "notes": null,
+    "project": "Scottcjn/rustchain-bounties",
+    "published_at": "2026-02-26T22:22:03Z",
+    "reward": {
+      "amount": 1.5,
+      "currency": "USD",
+      "evidence": "**Reward**: 15 RTC ($1.50 at reference rate)",
+      "provenance": "stated",
+      "verified": false
+    },
+    "source": "github",
+    "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/450",
+    "status": "open",
+    "title": "[BOUNTY] Write a BoTTube Integration Guide — 10 RTC",
+    "updated_at": "2026-09-27T19:57:16Z"
   },
   {
     "ai_assistability": "unknown",
@@ -67,7 +109,7 @@
       "propagation"
     ],
     "last_changed_at": "2026-09-27T05:17:38Z",
-    "last_checked_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-01T04:13:08Z",
@@ -107,8 +149,8 @@
       "bounty",
       "medium"
     ],
-    "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-27T05:17:38Z",
+    "last_changed_at": "2026-09-28T05:22:36Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
     "notes": null,
     "project": "illbnm/homelab-stack",
     "published_at": "2026-03-17T08:02:32Z",
@@ -123,7 +165,7 @@
     "source_url": "https://github.com/illbnm/homelab-stack/issues/13",
     "status": "open",
     "title": "[BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)",
-    "updated_at": "2026-09-26T03:14:46Z"
+    "updated_at": "2026-09-27T15:53:47Z"
   },
   {
     "ai_assistability": "unknown",
@@ -148,7 +190,7 @@
       "bug"
     ],
     "last_changed_at": "2026-09-26T04:56:56Z",
-    "last_checked_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
     "notes": null,
     "project": "kodaksax/Bounty-production",
     "published_at": "2026-09-25T21:08:05Z",
@@ -186,7 +228,7 @@
     "issue_number": 9,
     "labels": [],
     "last_changed_at": "2026-09-27T05:17:38Z",
-    "last_checked_at": "2026-09-27T05:17:38Z",
+    "last_checked_at": "2026-09-28T05:22:36Z",
     "notes": null,
     "project": "uknwplayer/coins-on-the-ground",
     "published_at": "2026-09-27T01:39:09Z",
