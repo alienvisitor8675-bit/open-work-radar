@@ -13,6 +13,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any, Iterable
@@ -30,6 +31,18 @@ for _name in dir(core):
 
 # Real daily-run review found planned/unfunded offers carrying this label.
 core.NOT_ACTIONABLE_LABELS.add("funding-pending")
+
+# Post-hardening daily runs also surfaced two maintainer-authored meta issues
+# that contain bounty/reward amounts but are not offers of work themselves:
+# a roundup/scan issue and an incident report about an internal test bounty.
+# Keep the rule deliberately title-shaped so ordinary bug-labelled bounties and
+# legitimate multi-claim offers remain eligible.
+core.INDIRECT = re.compile(
+    rf"(?:{core.INDIRECT.pattern})"
+    r"|^\s*build-to-earn\s+scan\b"
+    r"|^\s*internal\s+test\s+bounty\b.*\b(?:publicly\s+listed|accepted\s+hunter)\b",
+    core.INDIRECT.flags,
+)
 
 
 class DirectValidationUnavailable(core.CollectorError):
