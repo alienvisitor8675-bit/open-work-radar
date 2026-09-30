@@ -25,4 +25,13 @@ jobs:
       - name: Run tests
         run: |
           python -m unittest discover -s tests -v
-          python -m py_compile scripts/__init__.py scripts/fetch_github.py scripts/fetch_github_core.py tests/test_fetch_github.py tests/test_issue14.py
+          python -m py_compile \
+            scripts/__init__.py \
+            scripts/fetch_github.py \
+            scripts/fetch_github_core.py \
+            scripts/fetch_opire.py \
+            scripts/fetch_all.py \
+            tests/test_fetch_github.py \
+            tests/test_issue14.py \
+            tests/test_issue17.py \
+            tests/test_issue18.py
