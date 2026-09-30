@@ -21,8 +21,8 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_changed_at": "2026-09-30T05:31:20Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-16T18:12:44Z",
@@ -37,7 +37,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-09-29T04:37:24Z"
+    "updated_at": "2026-09-30T04:21:28Z"
   },
   {
     "ai_assistability": "unknown",
@@ -63,8 +63,8 @@
       "bounty",
       "content"
     ],
-    "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_changed_at": "2026-09-30T05:31:20Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-02-26T22:22:03Z",
@@ -79,7 +79,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/450",
     "status": "open",
     "title": "[BOUNTY] Write a BoTTube Integration Guide — 10 RTC",
-    "updated_at": "2026-09-28T10:19:01Z"
+    "updated_at": "2026-09-29T07:44:05Z"
   },
   {
     "ai_assistability": "unknown",
@@ -95,8 +95,7 @@
     "deadline": null,
     "difficulty": "unknown",
     "discovery_sources": [
-      "bounty",
-      "reward"
+      "bounty"
     ],
     "github_state": "open",
     "id": "github-Scottcjn-rustchain-bounties-515",
@@ -108,8 +107,8 @@
       "open",
       "propagation"
     ],
-    "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_changed_at": "2026-09-30T05:31:20Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-01T04:13:08Z",
@@ -124,7 +123,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/515",
     "status": "open",
     "title": "[Bounty] Add RustChain to Your GitHub Profile README - 2 RTC",
-    "updated_at": "2026-09-28T10:06:19Z"
+    "updated_at": "2026-09-30T03:09:44Z"
   },
   {
     "ai_assistability": "unknown",
@@ -147,7 +146,7 @@
     "issue_number": 21,
     "labels": [],
     "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
     "project": "fluxerapp/fluxer-meta",
     "published_at": "2026-06-04T16:19:22Z",
@@ -188,7 +187,7 @@
       "medium"
     ],
     "last_changed_at": "2026-09-28T05:22:36Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
     "project": "illbnm/homelab-stack",
     "published_at": "2026-03-17T08:02:32Z",
@@ -209,7 +208,7 @@
     "ai_assistability": "unknown",
     "assignees": [],
     "author_association": "OWNER",
-    "body_excerpt": "## What's wrong Bounty `2a39dbf2-e720-4cff-b95d-bbe8fb84523d` has been `status = 'open'` since 2026-09-07 while also having an accepted hunter: | field | value | |---|---| | status | `open` | | accepted_request_id → request status | `accepted` (2026-09-07 17:29 UTC, 1 min after posting) | | accepted_by | set, matches the accepted request | | amount / funding | $1.00, `at_accept`, payment_architecture_version 1 | | wallet_transactions | one `escrow`, -$1.00, `completed` (2026-09-07 17:29) | | bounty_events | `bounty.posted`, `bounty.accepted`, nothing after | | last updated_at | 2026-09-08 02:23 UTC | **It is an internal test bounty that is publicly listed.** Poster and worker are both `is_internal = true`, but the bounty itself is `is_test = false`, so it shows in the feed. ## Impact (live) - 15 applications arrived after the accept, **13 from external hunters**. - 5 were closed by the 72h expiry job on 2026-09-25 with the copy \"The poster didn't respond in time\". That's false: a hunter was selected on day one. - 10 more are pending and will get the same notice as each passes 72h. It is the only open bounty with a worker set (`status='open' AND (accepted_by IS NOT NULL OR accepted_request_id IS NOT NULL)` returns 1 row). ## Already guarded `fn_sweep_absent_posters` skips bounties in this state (migration `20260925220000`), so the sweep won't archive it. The 72h expiry job does **not** skip it. ## To decide 1. **Holds $1 of escrow.** Resolving it (cancel + refund, or complete + release) moves money, so it needs an explicit human decision. 2. **Mark `is_test = true`?** That would also take it out of the feed. Check whether `trg_bounties_default_is_test` should have set it from the internal poster. 3. **Root cause.** How did an accepted bounty end up `open`? Something reopened it without clearing `accepted_by` / `accepted_request_id`. `updated_at` moved at 09-08 02:23 with no ledger event. `trg_bounties_clear_worker_when_reopened` exists, so whatever changed the row e…",
+    "body_excerpt": "## Parent #1 ## What to build Satisfy the Metropolis Hackathon Terms & Conditions (`docs/terms-and-conditions.md`) as mandatory requirements, not nice-to-haves. Disqualification is the failure mode here. Scope is deliberately limited to the compliance gates that issue #7 does NOT already cover — #7 owns README content, demo video script, and the bounty checklist. ## Acceptance criteria From §4.1.1 — mandatory submission contents: - [x] Open source license present (MIT, added) - [ ] README states that AI coding tools were used, naming which (§4.1.4 — mandatory disclosure, currently a disqualification risk) - [ ] Public repo, commit history spanning the build window (1 Sep–13 Oct 2026) - [ ] Monad mainnet or testnet deployment evidenced by transaction hashes (§4.1.3, §9.2) From §4.1.2 and §9.4 — demo video: - [ ] Recorded, publicly accessible, **≤ 3 minutes hard** (§9.4), showing the product in actual operation including a real Monad transaction (§4.1.2) - [ ] Demonstrates a *successful* top-up, not the 503 out-of-stock path (#3 blocker) From §2 and §4.2 — eligibility and registration: - [ ] Team registered on hackathon.monad.xyz, 1–5 members (§2.4) - [ ] Primary contact designated as the prize recipient (§2.4, §6.1 — prizes paid to this wallet) - [ ] Team eligible: 18+, no sanctions-list jurisdiction (§2.1, §2.2) - [ ] Registered for exactly one track, submitting one project (§2.5 — multiple submissions disqualify) - [ ] Deadline booked: 13 Oct 2026, 11:59 PM ET, submitted via the website only (§4.2) ## Blocked by - #3 — the demo video needs a funded relayer to show a real successful payment ## Notes Prize pool is stated as $145,000 in T&C §3.2 but $250,000+ on the website; §3.2 notes sponsor bounties are added later. Plan against the T&C figure. The exact submission checklist on hackathon.monad.xyz is still login-gated and unread — confirm against it before submitting.",
     "category": "unknown",
     "competition": {
       "attempts": null,
@@ -219,68 +218,31 @@
     "deadline": null,
     "difficulty": "unknown",
     "discovery_sources": [
-      "bounty"
+      "bounty",
+      "funded-bounty"
     ],
     "github_state": "open",
-    "id": "github-kodaksax-Bounty-production-864",
-    "issue_number": 864,
+    "id": "github-mandaputtra-ping-pong-pay-10",
+    "issue_number": 10,
     "labels": [
-      "bug"
+      "ready-for-agent"
     ],
-    "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
+    "last_changed_at": "2026-09-30T05:31:20Z",
+    "last_checked_at": "2026-09-30T05:31:20Z",
     "notes": null,
-    "project": "kodaksax/Bounty-production",
-    "published_at": "2026-09-25T21:08:05Z",
+    "project": "mandaputtra/ping-pong-pay",
+    "published_at": "2026-09-29T09:48:18Z",
     "reward": {
-      "amount": 1,
+      "amount": 145000,
       "currency": "USD",
-      "evidence": "nding | $1.00, `at_accept`, payment_architecture_version 1 | | wallet_transactions | one `escrow`, -$1.00, `completed` (2026-09-07 17:29) | | bounty_events | `bounty.posted`, `bounty.accepted`, nothing aft",
+      "evidence": "Prize pool is stated as $145,000 in T&C §3.2 but $250,000+ on the website; §3.2 notes sponsor",
       "provenance": "stated",
       "verified": false
     },
     "source": "github",
-    "source_url": "https://github.com/kodaksax/Bounty-production/issues/864",
+    "source_url": "https://github.com/mandaputtra/ping-pong-pay/issues/10",
     "status": "open",
-    "title": "Internal test bounty 2a39dbf2 is publicly listed as open with an accepted hunter; external applicants told 'no response'",
-    "updated_at": "2026-09-28T15:12:46Z"
-  },
-  {
-    "ai_assistability": "unknown",
-    "assignees": [],
-    "author_association": "OWNER",
-    "body_excerpt": "## Goal Find legitimate public paid opportunities to build apps, websites, tools, agents or developer products using the stack we already have (ChatGPT/AI coding, GitHub, free/credited hosting where possible), with zero owner capital by default. ## High-fit live candidates ### 1) Devpost — Build With AI: Basics - Prize pool: $2,500 cash (1st $1,250 / 2nd $750 / 3rd $500) - Deadline: 2026-10-26 - Global, age 18+ - Explicitly designed for coding agents; supports Codex/agent skills. - Requires a brand-new app from an empty folder, public repo with scope.md/prd.md/spec.md, and 1–3 min demo video. - No purchase/payment necessary. - Fit: VERY HIGH. We can build most of it autonomously with GitHub + AI; human gate is registration/submission/video publishing. - Source: https://learn-ai-basics.devpost.com/ ### 2) Amazon Developer Hackathon — Build, Ship, Shape - $138,000 cash prize pool; deadline 2026-10-23. - Global adults; no purchase/payment necessary. - Alexa+ track explicitly allows a self-hosted MCP server or Agent Skill and can be demoed with our own web frontend/simulator; no gated Alexa+ tools needed. - Open Source mini-challenge pays $5,000 cash; main track prizes are larger. - Fit: HIGH technically, but very high competition (~14k participants). - Source: https://amazonappdev2026.devpost.com/ ### 3) Superteam — Mermail Agent Skill - 500 USDC total: 250 / 100 / 50 + 2x 50 bonuses. - Global; 166 submissions visible on 2026-09-26. - Winner announcement scheduled 2026-10-11. - Skills: backend/blockchain/content; build/demo an agent skill. - Fit: HIGH; agent-native and public GitHub deliverable. Competition moderate-high. - Source: https://superteam.fun/earn/listing/build-and-demo-a-mermail-agent-skill ### 4) Colosseum Crypto World's Fair + Superteam sidetracks - Global hackathon: $840k prizes + $2.5M seed funding; submissions due 2026-10-12. - Superteam Crypto World's Fair sidetracks currently advertise additional prizes; Panta API sidetrack: 5,000 USDG (2k / 1k / 1k…",
-    "category": "design",
-    "competition": {
-      "attempts": null,
-      "claims": null,
-      "open_prs": null
-    },
-    "deadline": null,
-    "difficulty": "unknown",
-    "discovery_sources": [
-      "bounty"
-    ],
-    "github_state": "open",
-    "id": "github-uknwplayer-coins-on-the-ground-9",
-    "issue_number": 9,
-    "labels": [],
-    "last_changed_at": "2026-09-27T05:17:38Z",
-    "last_checked_at": "2026-09-29T05:42:52Z",
-    "notes": null,
-    "project": "uknwplayer/coins-on-the-ground",
-    "published_at": "2026-09-27T01:39:09Z",
-    "reward": {
-      "amount": 2500,
-      "currency": "USD",
-      "evidence": "- Prize pool: $2,500 cash (1st $1,250 / 2nd $750 / 3rd $500)",
-      "provenance": "stated",
-      "verified": false
-    },
-    "source": "github",
-    "source_url": "https://github.com/uknwplayer/coins-on-the-ground/issues/9",
-    "status": "open",
-    "title": "Build-to-earn scan — apps, sites & tools — 2026-09-26",
-    "updated_at": "2026-09-27T01:39:09Z"
+    "title": "T&C compliance: AI disclosure, registration, demo video, eligibility",
+    "updated_at": "2026-09-30T03:10:22Z"
   }
 ]
