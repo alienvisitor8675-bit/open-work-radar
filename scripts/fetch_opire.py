@@ -221,7 +221,7 @@ def normalize_opire_reward(
         or gh.NOT_ACTIONABLE_TITLE.search(title)
         or gh.NOT_ACTIONABLE.search(text)
         or label_set & gh.NOT_ACTIONABLE_LABELS
-        or gh.INDIRECT.search(title)
+        or gh.core.INDIRECT.search(title)
         or gh.SECONDARY_SOURCE.search(text)
     ):
         return None
