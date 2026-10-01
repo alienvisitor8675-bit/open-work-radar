@@ -21,9 +21,12 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-09-30T05:31:20Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-16T18:12:44Z",
     "reward": {
@@ -37,7 +40,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-09-30T04:21:28Z"
+    "updated_at": "2026-10-01T04:33:06Z"
   },
   {
     "ai_assistability": "unknown",
@@ -63,9 +66,12 @@
       "bounty",
       "content"
     ],
-    "last_changed_at": "2026-09-30T05:31:20Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-02-26T22:22:03Z",
     "reward": {
@@ -107,9 +113,12 @@
       "open",
       "propagation"
     ],
-    "last_changed_at": "2026-09-30T05:31:20Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "Scottcjn/rustchain-bounties",
     "published_at": "2026-03-01T04:13:08Z",
     "reward": {
@@ -124,6 +133,52 @@
     "status": "open",
     "title": "[Bounty] Add RustChain to Your GitHub Profile README - 2 RTC",
     "updated_at": "2026-09-30T03:09:44Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
+    "author_association": "NONE",
+    "body_excerpt": "hi, Thanks for the code! I got a 'Error making POST request to https://www.udio.com/api/generate-proxy: 500 Server Error: Internal Server Error for url: https://www.udio.com/api/generate-proxy' both in my local IDE and the colab you provided. Is this the server problem? <br/> <hr/> <details><summary>This repo is using Opire - what does it means? 👇</summary><br/>💸Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount)<br/>💪 If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>🙌 And when they open the PR, they can comment <code>/claim #7</code> either in the PR description or in a PR's comment<br/><br/>👀 Also, everyone can tip any user commenting <code>/tip 20 @luoshangxuan1992</code> (replace <code>20</code> with the amount, and <code>@luoshangxuan1992</code> with the user to tip)<br/><br/>If you want to learn more, go to our <a href=\"https://docs.opire.dev\">documentation</a></details>",
+    "category": "unknown",
+    "competition": {
+      "attempts": 26,
+      "claims": 15,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "opire"
+    ],
+    "github_state": "open",
+    "id": "github-flowese-UdioWrapper-7",
+    "issue_number": 7,
+    "labels": [
+      "💰 Reward"
+    ],
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
+    "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
+    "opire_reward_ids": [
+      "01HW8CK374Y67WDDZG22BYVZQ4"
+    ],
+    "platform_sources": [
+      "opire"
+    ],
+    "project": "flowese/UdioWrapper",
+    "published_at": "2024-04-24T15:46:35.364000Z",
+    "reward": {
+      "amount": 20,
+      "currency": "USD",
+      "evidence": "Opire reward 01HW8CK374Y67WDDZG22BYVZQ4",
+      "provenance": "verified",
+      "verified": true
+    },
+    "source": "opire",
+    "source_url": "https://github.com/flowese/UdioWrapper/issues/7",
+    "status": "open",
+    "title": "500 Server Error - Auto Solve hcapcha",
+    "updated_at": "2026-10-01T04:32:13Z"
   },
   {
     "ai_assistability": "unknown",
@@ -145,9 +200,12 @@
     "id": "github-fluxerapp-fluxer-meta-21",
     "issue_number": 21,
     "labels": [],
-    "last_changed_at": "2026-09-29T05:42:52Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "fluxerapp/fluxer-meta",
     "published_at": "2026-06-04T16:19:22Z",
     "reward": {
@@ -186,9 +244,12 @@
       "bounty",
       "medium"
     ],
-    "last_changed_at": "2026-09-28T05:22:36Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "illbnm/homelab-stack",
     "published_at": "2026-03-17T08:02:32Z",
     "reward": {
@@ -218,7 +279,6 @@
     "deadline": null,
     "difficulty": "unknown",
     "discovery_sources": [
-      "bounty",
       "funded-bounty"
     ],
     "github_state": "open",
@@ -227,9 +287,12 @@
     "labels": [
       "ready-for-agent"
     ],
-    "last_changed_at": "2026-09-30T05:31:20Z",
-    "last_checked_at": "2026-09-30T05:31:20Z",
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
     "notes": null,
+    "platform_sources": [
+      "github"
+    ],
     "project": "mandaputtra/ping-pong-pay",
     "published_at": "2026-09-29T09:48:18Z",
     "reward": {
@@ -244,5 +307,52 @@
     "status": "open",
     "title": "T&C compliance: AI disclosure, registration, demo video, eligibility",
     "updated_at": "2026-09-30T03:10:22Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
+    "author_association": "MEMBER",
+    "body_excerpt": "Currently, when [using Trovu from its PWA](https://trovu.net/docs/users/integration/#pwa-progressive-web-app), target URLs are opened within the PWA. Instead, they shall - open in the default browser of the device, if no app is linked to this URL (e.g. URLs to Google shall open in Chrome or Firefox or whatever the default browser is) - open in the matching app (e.g. links to Google Maps or Youtube shall open in these apps, if they are installed). I assume this can be solved just with the right settings inside the PWA configuration. **Edit 2026-06-17:** Please note [this comment](https://github.com/trovu/trovu/issues/329#issuecomment-2062401881 ) stating that it might be technically impossible to solve this (at the moment) due to how PWAs are handled. **Edit 2026-05-23:** By now, I am receiving a new PR almost every day. All of them claim to solve the problem, yet when testing, *none of them have worked so far*. This is very frustrating. Even more frustrating is that when I comment that it's not working, I often get very wordy replies, new commits, and promises that \"now it's working\" – and it still isn't. It is very likely that those comments are written by AI. I don't mind if you use AI for coding, or if you use AI to fix the grammar of your comments. But in the comments, I want to talk to a human. Therefore, for me to consider any further PRs, please provide the following: ### Please include in the comment of your pull request: * A video recorded on an Android device, showing: * You open the Trovu PWA. * You send the query `g`. - The target URL (Google) opens **outside the PWA**, in the installed browser. It must be clearly visible that it is a browser, meaning: - There is an address bar showing the URL. - There is a tab switcher button (in Chrome, it's the square with a number in it). * The following statement: `I am a human who is writing this comment, not an AI.` Again, I don't mind if you code with AI. But in the comments, I want to talk to a human.",
+    "category": "unknown",
+    "competition": {
+      "attempts": 38,
+      "claims": 23,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "opire"
+    ],
+    "github_state": "open",
+    "id": "github-trovu-trovu-329",
+    "issue_number": 329,
+    "labels": [
+      "Type: enhancement",
+      "💰 Reward"
+    ],
+    "last_changed_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-01T05:51:25Z",
+    "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
+    "opire_reward_ids": [
+      "01HTN11YX5NYSS7GGB3SHNCJSS"
+    ],
+    "platform_sources": [
+      "opire"
+    ],
+    "project": "trovu/trovu",
+    "published_at": "2024-04-04T17:03:43.525000Z",
+    "reward": {
+      "amount": 30,
+      "currency": "USD",
+      "evidence": "Opire reward 01HTN11YX5NYSS7GGB3SHNCJSS",
+      "provenance": "verified",
+      "verified": true
+    },
+    "source": "opire",
+    "source_url": "https://github.com/trovu/trovu/issues/329",
+    "status": "open",
+    "title": "Open target URLs not in PWA but in default browser",
+    "updated_at": "2026-10-01T04:31:54Z"
   }
 ]
