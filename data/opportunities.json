@@ -21,8 +21,8 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_changed_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -40,7 +40,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-10-01T04:33:06Z"
+    "updated_at": "2026-10-02T04:25:37Z"
   },
   {
     "ai_assistability": "unknown",
@@ -67,7 +67,7 @@
       "content"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -114,7 +114,7 @@
       "propagation"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -157,7 +157,7 @@
       "💰 Reward"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
     "opire_reward_ids": [
       "01HW8CK374Y67WDDZG22BYVZQ4"
@@ -183,47 +183,6 @@
   {
     "ai_assistability": "unknown",
     "assignees": [],
-    "author_association": "MEMBER",
-    "body_excerpt": "- Subscribing to Events - Exporting user calendars and specific events to external providers",
-    "category": "unknown",
-    "competition": {
-      "attempts": null,
-      "claims": null,
-      "open_prs": null
-    },
-    "deadline": null,
-    "difficulty": "unknown",
-    "discovery_sources": [
-      "bounty"
-    ],
-    "github_state": "open",
-    "id": "github-fluxerapp-fluxer-meta-21",
-    "issue_number": 21,
-    "labels": [],
-    "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
-    "notes": null,
-    "platform_sources": [
-      "github"
-    ],
-    "project": "fluxerapp/fluxer-meta",
-    "published_at": "2026-06-04T16:19:22Z",
-    "reward": {
-      "amount": 125,
-      "currency": "USD",
-      "evidence": "User Calendars - (Dev Bounty: $125)",
-      "provenance": "stated",
-      "verified": false
-    },
-    "source": "github",
-    "source_url": "https://github.com/fluxerapp/fluxer-meta/issues/21",
-    "status": "open",
-    "title": "User Calendars - (Dev Bounty:  $125)",
-    "updated_at": "2026-09-28T19:13:29Z"
-  },
-  {
-    "ai_assistability": "unknown",
-    "assignees": [],
     "author_association": "OWNER",
     "body_excerpt": "--- name: 💰 Bounty - Notifications Stack about: 实现通知服务栈 (ntfy, Gotify) + 统一通知路由 title: '[BOUNTY $80] Notifications Stack — 通知服务' labels: bounty, easy assignees: '' --- ## 赏金金额 **$80 USDT** ## 任务描述 实现统一通知中心，让所有其他服务（Watchtower、Alertmanager、Gitea 等）都能向用户推送通知。 ## 服务清单 | 服务 | 镜像 | 用途 | |------|------|------| | ntfy | `binwiederhier/ntfy:v2.11.0` | 推送通知服务器 | | Gotify | `gotify/server:2.5.0` | 备用推送服务 | ## 核心要求 ### 1. ntfy 配置 ```yaml # config/ntfy/server.yml base-url: https://ntfy.${DOMAIN} auth-default-access: deny-all behind-proxy: true cache-file: /var/cache/ntfy/cache.db auth-file: /var/lib/ntfy/user.db ``` ### 2. 集成文档 `stacks/notifications/README.md` 必须包含以下服务的通知配置说明： | 服务 | 配置方式 | |------|----------| | Alertmanager | webhook receiver 指向 ntfy | | Watchtower | `WATCHTOWER_NOTIFICATION_URL=ntfy://...` | | Gitea | webhook 发送到 ntfy | | Home Assistant | ntfy notify integration | | Uptime Kuma | ntfy notification channel | ### 3. 通知脚本 `scripts/notify.sh <topic> <title> <message> [priority]` 其他脚本调用此统一接口，不直接调用 ntfy/Gotify API。 ### 4. Alertmanager 路由配置 ```yaml # config/alertmanager/alertmanager.yml receivers: - name: ntfy webhook_configs: - url: 'https://ntfy.${DOMAIN}/homelab-alerts' send_resolved: true ``` ## 验收标准 - [ ] ntfy Web UI 可访问 - [ ] 手机安装 ntfy App 可收到测试推送 - [ ] `scripts/notify.sh homelab-test \"Test\" \"Hello World\"` 成功推送 - [ ] Alertmanager 告警触发时 ntfy 收到通知 - [ ] Watchtower 更新容器后 ntfy 收到通知 - [ ] README 中所有服务集成说明完整可操作 ## 认领方式 评论 \"我来认领\"。",
     "category": "unknown",
@@ -245,7 +204,7 @@
       "medium"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -288,7 +247,7 @@
       "ready-for-agent"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -332,7 +291,7 @@
       "💰 Reward"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-01T05:51:25Z",
+    "last_checked_at": "2026-10-02T05:35:27Z",
     "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
     "opire_reward_ids": [
       "01HTN11YX5NYSS7GGB3SHNCJSS"
