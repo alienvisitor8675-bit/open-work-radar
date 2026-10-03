@@ -2,6 +2,49 @@
   {
     "ai_assistability": "unknown",
     "assignees": [],
+    "author_association": "COLLABORATOR",
+    "body_excerpt": "## Goal Add a small automated smoke test that verifies the public `/paid-bounties` route resolves correctly and does not fall through to the SPA home. ## Scope - Add a focused route/static-page test only. - Verify the canonical route `/paid-bounties`. - Verify `/paid-bounties.html` redirects to the canonical route if the test layer supports redirect assertions. - Do not change payment, treasury, wallet, settlement or bounty approval logic. ## Acceptance criteria - The new test passes locally and in CI. - Existing tests remain green. - The test fails if the route is removed or accidentally caught by the SPA fallback. ## Reward **15 USD equivalent — RESERVED.** The project owner has confirmed that funds are available and this amount is reserved for this task. Settlement rail will be agreed with the contributor before payout: **XMR, BTC or ETH**. The USD-equivalent conversion reference/timing, network and fee handling will be agreed before settlement. **RESERVED does not mean PAID**: payment follows accepted completion of the agreed scope. ## Contributor workflow - Reference this issue in the PR. - Include the test added and the local test command/result. - Include CI evidence once available. - Briefly explain what regression the test prevents. Accepted work can be linked as evidence in the contributor's MyZubster Contributor Passport / Pilot Node history.",
+    "category": "design",
+    "competition": {
+      "attempts": null,
+      "claims": null,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "bounty",
+      "good-first-bounty",
+      "reward"
+    ],
+    "github_state": "open",
+    "id": "github-MyZubster-Ecosystem-myzubster-1439",
+    "issue_number": 1439,
+    "labels": [],
+    "last_changed_at": "2026-10-03T05:17:59Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
+    "notes": null,
+    "platform_sources": [
+      "github"
+    ],
+    "project": "MyZubster-Ecosystem/myzubster",
+    "published_at": "2026-10-02T13:24:34Z",
+    "reward": {
+      "amount": 15,
+      "currency": "USD",
+      "evidence": "[GOOD FIRST ISSUE · RESERVED] Add smoke test for /paid-bounties route — 15 USD equivalent",
+      "provenance": "stated",
+      "verified": false
+    },
+    "source": "github",
+    "source_url": "https://github.com/MyZubster-Ecosystem/myzubster/issues/1439",
+    "status": "open",
+    "title": "[GOOD FIRST ISSUE · RESERVED] Add smoke test for /paid-bounties route — 15 USD equivalent",
+    "updated_at": "2026-10-03T02:02:01Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
     "author_association": "OWNER",
     "body_excerpt": "## Bounty: 2 RTC ### What to do 1. Visit [BoTTube on ToolPilot.ai](https://www.toolpilot.ai/products/bottube-1) 2. Click \"Write a Review\" 3. Leave an **honest** review based on your experience with [bottube.ai](https://bottube.ai) 4. Come back here and paste a screenshot or link to your review ### Requirements - Must actually use bottube.ai first (browse videos, upload one, comment, etc.) - Review must be honest — we want real feedback, not just \"great platform\" - Mention at least one specific feature you tried (e.g., video upload, AI agents, comments, API/SDK) - 5 stars not required — we value honest feedback. But if you genuinely like it, say so! ### Why We currently have 7 reviews (86% positive). Real user reviews help other developers discover BoTTube. ### Claim Comment below with your wallet address after posting your review. Multiple people can claim this bounty. **RTC Value: 2 RTC (~$0.20)**",
     "category": "unknown",
@@ -21,8 +64,8 @@
     "labels": [
       "bounty"
     ],
-    "last_changed_at": "2026-10-02T05:35:27Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_changed_at": "2026-10-03T05:17:59Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -40,7 +83,7 @@
     "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
     "status": "open",
     "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-    "updated_at": "2026-10-02T04:25:37Z"
+    "updated_at": "2026-10-03T04:08:05Z"
   },
   {
     "ai_assistability": "unknown",
@@ -67,7 +110,7 @@
       "content"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -114,7 +157,7 @@
       "propagation"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -141,7 +184,7 @@
     "body_excerpt": "hi, Thanks for the code! I got a 'Error making POST request to https://www.udio.com/api/generate-proxy: 500 Server Error: Internal Server Error for url: https://www.udio.com/api/generate-proxy' both in my local IDE and the colab you provided. Is this the server problem? <br/> <hr/> <details><summary>This repo is using Opire - what does it means? 👇</summary><br/>💸Everyone can add rewards for this issue commenting <code>/reward 100</code> (replace <code>100</code> with the amount)<br/>💪 If someone starts working on this issue to earn the rewards, they can comment <code>/try</code> to let everyone know!<br/>🙌 And when they open the PR, they can comment <code>/claim #7</code> either in the PR description or in a PR's comment<br/><br/>👀 Also, everyone can tip any user commenting <code>/tip 20 @luoshangxuan1992</code> (replace <code>20</code> with the amount, and <code>@luoshangxuan1992</code> with the user to tip)<br/><br/>If you want to learn more, go to our <a href=\"https://docs.opire.dev\">documentation</a></details>",
     "category": "unknown",
     "competition": {
-      "attempts": 26,
+      "attempts": 27,
       "claims": 15,
       "open_prs": null
     },
@@ -156,8 +199,8 @@
     "labels": [
       "💰 Reward"
     ],
-    "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_changed_at": "2026-10-03T05:17:59Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
     "opire_reward_ids": [
       "01HW8CK374Y67WDDZG22BYVZQ4"
@@ -178,7 +221,7 @@
     "source_url": "https://github.com/flowese/UdioWrapper/issues/7",
     "status": "open",
     "title": "500 Server Error - Auto Solve hcapcha",
-    "updated_at": "2026-10-01T04:32:13Z"
+    "updated_at": "2026-10-02T11:01:11Z"
   },
   {
     "ai_assistability": "unknown",
@@ -204,7 +247,7 @@
       "medium"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -247,7 +290,7 @@
       "ready-for-agent"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": null,
     "platform_sources": [
       "github"
@@ -291,7 +334,7 @@
       "💰 Reward"
     ],
     "last_changed_at": "2026-10-01T05:51:25Z",
-    "last_checked_at": "2026-10-02T05:35:27Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
     "notes": "Reward is listed by Opire; payout remains subject to creator acceptance/payment arrangement.",
     "opire_reward_ids": [
       "01HTN11YX5NYSS7GGB3SHNCJSS"
@@ -313,5 +356,46 @@
     "status": "open",
     "title": "Open target URLs not in PWA but in default browser",
     "updated_at": "2026-10-01T04:31:54Z"
+  },
+  {
+    "ai_assistability": "unknown",
+    "assignees": [],
+    "author_association": "MEMBER",
+    "body_excerpt": "## 🔗 Link your bank, get rewarded for building **$1,000 is funded on [Merit](https://terminal.merit.systems/zkp2p/peer-link) for 20 bank integrations — $50 each, paid in USDC.** Bring your bank account and your coding agent; turn what works for your bank into an open, inspectable adapter. Funding: two 500 USDC sponsor deposits on Base ([1](https://basescan.org/tx/0x53902d363f347e888b63d5266b95da66f9f53ee1fa487331bef583c65ec695c9), [2](https://basescan.org/tx/0xbffb6d25d3b95463d3fe5d5a0739701a5d84f3224639eff164361f1fabe26145)), allocated to the Merit project on October 2, 2026. Awards are earmarked from the project pool rather than per-issue escrow. ### Open bounties | Bank | Country | Currency | Award | | --- | --- | --- | ---: | | [Monobank](https://github.com/zkp2p/peer-link/issues/6) | UA | UAH | $50 | | [Vietcombank](https://github.com/zkp2p/peer-link/issues/8) | VN | VND | $50 | | [Chase](https://github.com/zkp2p/peer-link/issues/73) | US | USD | $50 | | [Bank of America](https://github.com/zkp2p/peer-link/issues/74) | US | USD | $50 | | [Wells Fargo](https://github.com/zkp2p/peer-link/issues/75) | US | USD | $50 | | [OPay](https://github.com/zkp2p/peer-link/issues/4) | NG | NGN | $50 | | [Easypaisa](https://github.com/zkp2p/peer-link/issues/86) | PK | PKR | $50 | | [BCA](https://github.com/zkp2p/peer-link/issues/7) | ID | IDR | $50 | | [Bancolombia](https://github.com/zkp2p/peer-link/issues/9) | CO | COP | $50 | | [GCash](https://github.com/zkp2p/peer-link/issues/10) | PH | PHP | $50 | | [bKash](https://github.com/zkp2p/peer-link/issues/13) | BD | BDT | $50 | | [Safaricom M-Pesa](https://github.com/zkp2p/peer-link/issues/14) | KE | KES | $50 | | [Kaspi Bank](https://github.com/zkp2p/peer-link/issues/15) | KZ | KZT | $50 | | [BBVA Mexico](https://github.com/zkp2p/peer-link/issues/16) | MX | MXN | $50 | | [Banco de Credito del Peru](https://github.com/zkp2p/peer-link/issues/17) | PE | PEN | $50 | | [Ziraat Bank](https://github.com/zkp2p/peer-link/issues/18) | T…",
+    "category": "unknown",
+    "competition": {
+      "attempts": null,
+      "claims": null,
+      "open_prs": null
+    },
+    "deadline": null,
+    "difficulty": "unknown",
+    "discovery_sources": [
+      "funded-bounty"
+    ],
+    "github_state": "open",
+    "id": "github-zkp2p-peer-link-64",
+    "issue_number": 64,
+    "labels": [],
+    "last_changed_at": "2026-10-03T05:17:59Z",
+    "last_checked_at": "2026-10-03T05:17:59Z",
+    "notes": null,
+    "platform_sources": [
+      "github"
+    ],
+    "project": "zkp2p/peer-link",
+    "published_at": "2026-09-22T19:03:59Z",
+    "reward": {
+      "amount": 1000,
+      "currency": "USD",
+      "evidence": "Peer Link bounties — $1,000 across 20 banks ($50 each)",
+      "provenance": "stated",
+      "verified": false
+    },
+    "source": "github",
+    "source_url": "https://github.com/zkp2p/peer-link/issues/64",
+    "status": "open",
+    "title": "Peer Link bounties — $1,000 across 20 banks ($50 each)",
+    "updated_at": "2026-10-02T12:10:37Z"
   }
 ]
